@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "BrainzPlatform",
+    "packageName": "com.brainz.server",
+    "packageFolder": "com/brainz/server",
+    "authenticationType": "session",
+    "hibernateCache": "hazelcast",
+    "clusteredHttpSession": "hazelcast",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "useSass": false,
+    "buildTool": "gradle",
+    "frontendBuilder": "gulp",
+    "enableTranslation": true,
+    "enableSocialSignIn": true,
+    "rememberMeKey": "61fbabe3eb0c2ff301841d6076ffab5d5b8f9532",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
